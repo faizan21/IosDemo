@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8139BC691EAE179D002F7008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8139BC681EAE179D002F7008 /* AppDelegate.swift */; };
 		8139BC6B1EAE179D002F7008 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8139BC6A1EAE179D002F7008 /* ViewController.swift */; };
 		8139BC6E1EAE179D002F7008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8139BC6C1EAE179D002F7008 /* Main.storyboard */; };
 		8139BC701EAE179D002F7008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8139BC6F1EAE179D002F7008 /* Assets.xcassets */; };
 		8139BC731EAE179D002F7008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8139BC711EAE179D002F7008 /* LaunchScreen.storyboard */; };
 		8139BC7E1EAE179D002F7008 /* xcode_ios_MCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8139BC7D1EAE179D002F7008 /* xcode_ios_MCTests.swift */; };
 		8139BC891EAE179D002F7008 /* xcode_ios_MCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8139BC881EAE179D002F7008 /* xcode_ios_MCUITests.swift */; };
+		81DB7C541EAE1DCF003EC997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8139BC681EAE179D002F7008 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -262,8 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81DB7C541EAE1DCF003EC997 /* AppDelegate.swift in Sources */,
 				8139BC6B1EAE179D002F7008 /* ViewController.swift in Sources */,
-				8139BC691EAE179D002F7008 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +514,7 @@
 				8139BC8F1EAE179D002F7008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8139BC901EAE179D002F7008 /* Build configuration list for PBXNativeTarget "xcode ios MCTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				8139BC921EAE179D002F7008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8139BC931EAE179D002F7008 /* Build configuration list for PBXNativeTarget "xcode ios MCUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				8139BC951EAE179D002F7008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
