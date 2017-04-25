@@ -1,0 +1,6 @@
+framework module Pods_xcode_ios_MCTests {
+  umbrella header "Pods-xcode ios MCTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
